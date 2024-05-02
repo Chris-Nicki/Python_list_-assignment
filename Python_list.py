@@ -24,7 +24,7 @@ attended = ["Charlie", "Eve", "Alice", "Frank"]
 print(f"Submitted Papers:",submitted)
 print(f"Attended Class:",attended)
 # Find out which students both submitted their assignments and attended the class.
-submitted_and_attended = [for i in submitted if i in attended]
+submitted_and_attended = [i for i in submitted if i in attended]
 print(f"Great Job! {submitted_and_attended}, you made it to class and submitted your Python List assignment!")
 
 # 3. Advanced Slicing Techniques
